@@ -25,17 +25,13 @@ function convertCurrency(event) {
     event.preventDefault(); // Evitar que a página seja recarregada ao enviar o formulário
 
     const amount = parseFloat(amountInput.value); // Verifica o valor mandado pelo usuário se é positivo e numérico caso seja inválido é exibida uma mensagem de erro
-    const from = fromCurrency.value; // Moeda de origem
-    const to = toCurrency.value; // Moeda de destino
+    const from = fromCurrency.value;
+    const to = toCurrency.value;
 
     if (isNaN(amount) || amount <= 0) {
         resultDiv.innerHTML = 'Por favor, insira um valor válido.';
         return;
-    } // mensagem de erro da const amont
-
-    // caso o valor enviado pelo usuário seja valido:
-
-    // Chama a função para obter a taxa de conversão
+    }
     getConversionRate(from, to).then(rate => {
         if (rate) {
             const convertedAmount = (amount * rate).toFixed(2); // Faz o cálculo da conversão. Usando o valor de amont e multiplicando o valor pela taxa rate e o resultado é arredondado para duas casas decimais com .toFixed(2)
