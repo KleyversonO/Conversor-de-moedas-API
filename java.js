@@ -52,3 +52,16 @@ function resetForm() {
 // Adicionando os event listeners para o submit do formulário e o botão de reset
 form.addEventListener('submit', convertCurrency); // adiciona evento para que quando o usuário clicar em enviar a função convetCurrency seja executada
 resetButton.addEventListener('click', resetForm); // adiciona evento para que quando o usúario clicar no botão de reset o formulário execute a função resetForm
+
+// Adiciona um ouvinte de eventos para o botão de troca de moedas
+document.getElementById('swap-currencies').addEventListener('click', function() {
+    // Obtém os valores selecionados das moedas
+    const fromCurrencySelect = document.getElementById('from-currency');
+    const toCurrencySelect = document.getElementById('to-currency');   
+
+
+    // Troca os valores selecionados
+    const temp = fromCurrencySelect.value;
+    fromCurrencySelect.value = toCurrencySelect.value;
+    toCurrencySelect.value = temp;
+});
