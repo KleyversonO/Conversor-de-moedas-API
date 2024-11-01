@@ -39,14 +39,11 @@ Aqui é possível ver a parte do código para o botão de "Trocar moedas". E de 
 
 
 ## Fontes
-Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
 <br>
 https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
 <br>
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const
 <br>
-
-## ESSE PROJETO MESMO
 https://docs.awesomeapi.com.br/api-de-moedas
 <br>
 https://www.investopedia.com/terms/c/constantcurrencies.asp#:~:text=Constant%20currencies%20are%20exchange%20rates,with%20optional%2C%20constant%20currency%20numbers.
