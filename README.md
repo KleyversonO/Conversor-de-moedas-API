@@ -1,6 +1,12 @@
 # Conversos de moedas com API
 O projeto tem a função de treinar javaScript e API, fazendo um site que fará com que você digite um valor e ele ira dar algumas moedas para selecionar, em 2 diferentees espaços, e após clicar em "Converter" ele irá dizer a diferença de valor de uma para outra. Uma breve explicação do que é API: "API significa Application Programming Interface (Interface de Programação de Aplicação). No contexto de APIs, a palavra Aplicação refere-se a qualquer software com uma função distinta. A interface pode ser pensada como um contrato de serviço entre duas aplicações.". Foi feito durante as aulas de Programação Web 1 sobre a supervisão do professor Leonardo Santiago Sidon da Rocha.
 
+## Projeto base
+Esse projeto é uma extensão e uma melhoria de um outro projeto também realizado em aula. Aonde só era necessario pegar os valores da moeda. Porém esse outro projeto não era atualizado de forma automática, então a função da API vem para solucionar isso, tendo as moedas realizadas em tempo real. Abaixo, o link do outro projeto.
+<br>
+Projeto base: https://github.com/KleyversonO/Conversor-de-moedas
+
+
 ## Função
 O projeto possui uma interface simples, porém funcional e intuitiva. No projeto é possível ver uma caixa aonde você pode digitar um valor númerico, ou apenas selecionar um com os botões ao lado. Mais abaixo á um caixa aonde você pode selecionar um tipo de moeda, e um pouco abaixo pode selecionar também as mesmas moedas. Abaixo dessas caixas possui 3 botões, um escrito "Trocar moedas" aonde caso você clique, ele inverte as moedas selecionadas, o botão "Apagar" que ira apagar o número digitado e por último o botão "Converter", que irá dizer a diferença de valores entre as duas moedas selecionadas.
 ![gif](img/funciona.gif)
