@@ -45,8 +45,10 @@ Essa função é importante destacar devido a ser uma das principais partes do c
 
 Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
 ## Fontes
+
+`` https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener ``
 <br>
-https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+`` https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener ``
 <br>
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/const
 <br>
