@@ -37,7 +37,13 @@ Aqui é usado um código simples que de forma simplificada quando você clica no
 ![foto](img/troca.png)
 Aqui é possível ver a parte do código para o botão de "Trocar moedas". E de forma simples esse código tem a função de quando clicar no botão, os dois valores serão invertidos.
 
+* getElementById: É um comando que dá um identificador único a algo de seu interesse.
 
+*   const fromCurrencySelect = document.getElementById('from-currency');
+    const toCurrencySelect = document.getElementById('to-currency');
+Essa função é importante destacar devido a ser uma das principais partes do código, basicamente essas 2 linhas de código, junto da linha de código acima delas (é possível ver na imagem), tem a função que ao clicar no botão criado ele entende que deve inverte o "from-currency", pelo "to-currency"; assim, fazendo com que os valores sejam invertidos.
+
+Fonte:https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
 ## Fontes
 <br>
 https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
@@ -52,7 +58,7 @@ https://aws.amazon.com/pt/what-is/api/#:~:text=API%20significa%20Application%20P
 <br>
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
 <br>
-
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document/getElementById
 
 ## Tecnologias utilizadas 
 
@@ -63,5 +69,7 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects
 * ``VsCode``
 * ``Microsoft Teams``
 * ``Google``
+## Colaboradores
+Fellipe Gabriel Zanin
 ## Autor
 Kleyverson de Oliveira Sampaio
